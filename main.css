@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.user-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.user-card {
+  background-color: #00bfff;
+  padding: 15px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
